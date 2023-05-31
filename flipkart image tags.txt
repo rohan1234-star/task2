@@ -1,0 +1,247 @@
+*top offers:
+
+<img loading="lazy" class="_396cs4" alt="Top Offers" src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/1350e22cff9663e7.png?q=100">
+img[loading='lazy']
+img[class='_396cs4']
+img[alt='Top Offers']
+
+*mobile and tablet:
+
+img[alt='Mobiles & Tablets']
+img[alt='Fashion']
+
+*electronics:
+<img loading="lazy" class="_396cs4" alt="Electronics" src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/7dbcda527b648814.png?q=100">
+img[loading='lazy']
+img[class='_396cs4']
+img[alt='Electronics']
+
+*tv appliances:
+<img loading="lazy" class="_396cs4" alt="TVs &amp; Appliances" src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/e29a070388d534a5.png?q=100">
+img[loading='lazy']
+img[class='_396cs4']
+img[alt='TVs &amp; Appliances']
+
+
+*fashion:
+<img loading="lazy" class="_396cs4" alt="Fashion" src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/d44ffc537ed6e241.png?q=100">
+img[loading='lazy']
+img[alt='Fashion']
+
+
+*beauty:
+<img loading="lazy" class="_396cs4" alt="Beauty" src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/994a83c90019fb5f.png?q=100">
+img[alt='Beauty']
+
+
+*.home and furniture:
+<img loading="lazy" class="_396cs4" alt="Home &amp; Furniture" src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/d300931a0fd1c17e.png?q=100">
+img[alt='Home &amp; Furniture']
+
+
+*flights:
+
+<div class="xtXmba">Flights</div>
+div[class='xtXmba']
+
+
+*grocery:
+<img loading="lazy" class="_396cs4" alt="Grocery" src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/aecfaba5969b96dd.png?q=100">
+img[alt='Grocery']
+
+
+*login cancel button:
+
+<button class="_2KpZ6l _2doB4z">✕</button>
+button[class='_2KpZ6l _2doB4z']
+
+
+=========================================================================================================================================
+
+
+top offer:
+<img loading="lazy" class="_396cs4" alt="Top Offers" src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/1350e22cff9663e7.png?q=100">
+img[alt='Top Offers']
+========================================================================================================================================
+
+
+<html>
+      <head></head>
+          <body bgcolor='red'>
+                <div>
+                        <input type=''text'' vlaue="A">
+                           <input type=''text'' vlaue="B">
+               </div>
+                  <div>
+                          <input type=''text'' vlaue="C">
+                          <input type=''text'' vlaue="D">
+                   </div>
+  </body>
+</html>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+html/body/div/input[2]=BD
+html/body/div/input[1]=AC
+
+html/body/div[1]/input[1]=A
+html/body/div[1]/input[2]=B
+html/body/div[2]/input[1]=C
+html/body/div[2]/input[2]=D
+
+AB= html/body/div[1]/input
+CD= html/body/div[2]/input
+
+================================================================================================================================
+
+
+
+*****Absolute Xpath*****
+
+
+mobile and tablet=
+text=html/body/div/div/div[2]/div/div/div[2]/a/div[2]
+img=html/body/div/div/div[2]/div/div/div[2]/a/div[1]/div/img
+
+
+electronics=
+text=html/body/div/div/div[2]/div/div/div[3]/a/div[2]
+img=html/body/div/div/div[2]/div/div/div[3]/a/div[1]/div/img
+
+
+TV and appliances=
+text=html/body/div/div/div[2]/div[1]/div/div[4]/a/div[2]
+img=html/body/div/div/div[2]/div[1]/div/div[4]/a/div[1]/div/img
+
+
+Fashion=
+text=html/body/div/div/div[2]/div/div/div[5]/a/div[2]
+img=html/body/div/div/div[2]/div/div/div[5]/a/div[1]/div/img
+
+
+Beauty=
+text=html/body/div/div/div[2]/div/div/div[6]/a/div[2]
+img=html/body/div/div/div[2]/div/div/div[6]/a/div[1]/div/img
+
+
+Home and Furniture=
+text=html/body/div/div/div[2]/div/div/div[7]/a/div[2]
+img=html/body/div/div/div[2]/div/div/div[7]/a/div[1]/div/img
+
+
+Flights=
+text=html/body/div/div/div[2]/div/div/div[8]/a/div[2]
+img=html/body/div/div/div[2]/div/div/div[8]/a/div[1]/div/img
+
+
+Grocery=
+text=html/body/div/div/div[2]/div/div/div[9]/a/div[2]
+img=html/body/div/div/div[2]/div/div/div[9]/a/div[1]div/img
+
+
+
+==========================================================================================================================================
+
+*****Relative Xpath*****
+
+
+//div[1]/input[1]=A
+//div[1]/input
+
+
+
+//div[1]/input[2] =B
+//div[1]/input[1]=A
+//div[2]/input[1]=C
+//div[2]/input[2]=D
+//div[1]/input=AB
+//div[2]/input=CD
+/input[1]=AC
+//input[2]=BD
+
+
+***Relative Xpath for flipkart***
+
+
+***TEXT***
+~~~~~~~~~~
+mobile and tablets=  //div[2]/a/div[2]
+Electronics=               //div[3]/a/div[2]
+TV and aplliances=   //div[4]/a/div[2]
+Fashion=                     //div[5]/a/div[2]
+Beauty=                       //div[6]/a/div[2]
+Home and Furniture=//div[7]/a/div[2]
+Flights=                        //div[8]/a/div[2]
+Grocery=                       //div[9]/a/div[2]
+
+
+***IMAGES***
+~~~~~~~~~~~~
+mobile and tablets=  //div[2]/a/div[1]/div/img
+Electronics=               //div[3]/a/div[1]/div/img
+TV and aplliances=   //div[4]/a/div[1]/div/img
+Fashion=                     //div[5]/a/div[1]/div/img
+Beauty=                       //div[6]/a/div[1]/div/img
+Home and Furniture=//div[7]/a/div[1]/div/img
+Flights=                        //div[8]/a/div[1]/div/img
+Grocery=                       //div[9]/a/div[1]/div/img
+
+
+****Xpath by Attribute****
+~~~~~~~~~~~~~~~~~~~~
+
+mobile and tablets=  //img[@alt='Mobiles & Tablets']
+Electronics=               //img[@alt='Electronics']
+TV and aplliances=   //img[@alt='TVs & Appliances']
+Fashion=                     //img[@alt='Fashion']
+Beauty=                       //img[@alt='Beauty']
+Home and Furniture=//img[@alt='Home & Furniture']
+Flights=                        //img[@alt='Flights']
+Grocery=                       //img[@alt='Grocery']
+=================================================================================================================
+
+***And operator in findElements()***
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<html>
+<head></head>
+<body>
+<input type="text" value="A">
+<input type="text" value="B">
+<input type="submit" value="A">
+</body>
+</html>
+
+
+=================================================================================================================
+
+//input[@value='B']============B
+//input[@type='submit']========a
+//input[@type='text']=======AB
+//input[@value='A']=========Aa
+//input[@type='text' and @value='A']======A
+//input[@value='B' or @type='submit']=====Ba
+
+===============================================================================================================
+
+****Xpath by text*****
+~~~~~~~~~~~~~~~~~
+
+
+Grocery= //div[text()='Grocery']
+Mobile= //div[text()='Mobiles']
+Appliances=//div[text()='Appliances']
+Travel=//div[text()='Travel']
+Topoffers=//div[text()='Top Offers']
+================================================================================================================
+
+
+****Xpath By Contains****
+~~~~~~~~~~~~~~~~~~~~
+
+
+1.//tagname[contains(text(),'partial text value')]
+2.//tagname[contains(@attributeName,'partial attribute value')]
+
+================================================================================================================
+
+
